@@ -27,7 +27,7 @@ def moyenne(valeurs):
     if len(valeurs)!=0:
         return(sum(valeurs)/len(valeurs))
     else :
-        return(False)
+        raise ValueError
 ```
 
 - La fonction doit retourner la moyenne des valeurs de la liste qui lui est passée en paramètres.  
